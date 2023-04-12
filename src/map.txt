@@ -1,0 +1,3 @@
+ 	 GiantSquidRoom 	 	LeaveGrottoRoom
+ 	 TreasureRoom	FindPistolRoom	EmptyGrottoPath
+ 	 BuccaneersRoom	StartingRoom	EmptyCavePath

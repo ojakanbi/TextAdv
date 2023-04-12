@@ -1,0 +1,32 @@
+Item -> Treasure --
+Weapon  --
+Arrow -> Musket Ball
+Mace -> Boarding Pike
+Sword -> Sabre
+Pillow -> Hammock
+
+
+Player -> Pirate
+Enemy -> Navy Soldier
+Ogre -> Sea Monster
+Wolf -> Shark
+Zombie -> Skeleton
+GiantSpider -> Giant Squid
+Dog -> Parrot
+MapTile -> Island Tile
+EmptyRoom -> Empty Ship Cabin
+OgreRoom -> Kraken Den
+GiantSpiderRoom -> Giant Squid's Lair
+EnemyRoom -> Navy Ship Deck
+LootRoom -> Treasure Hold
+FindDaggerRoom -> Hidden Weapon Cache
+FindArrowRoom -> Hidden Ammunition Cache
+TreasureRoom -> Treasure Island
+EmptyCavePath -> Empty Sea Channel
+Action -> Pirate Action
+Method -> Pirate Method
+Flee -> Abandon Ship
+
+
+Notes ->> I need to center the starting point so that it has 4 ways to go
+I need to implement the modify_player method and see what and how it works

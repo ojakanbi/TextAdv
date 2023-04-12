@@ -1,0 +1,45 @@
+import java.util.ArrayList;
+public class MapTile {
+
+    int x;
+
+    int y;
+    /**
+     * Constructs a new MapTile instance with the specified x and y coordinates.
+     *
+     * @param x - the x-coordinate of the MapTile
+     * @param y - the y-coordinate of the MapTile
+     */
+    public MapTile(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public String intro_text() {throw new UnsupportedOperationException(); }
+
+
+    public ArrayList<Action> adjacentMoves() {
+        ArrayList<Action> moves = new ArrayList<>();
+        if (World.tile_exists(x, y +1) != null)
+            moves.add(new MoveEast());
+        if (World.tile_exists(x, y -1) != null)
+            moves.add(new MoveWest());
+        if (World.tile_exists(x - 1, y) != null)
+            moves.add(new MoveNorth());
+        if (World.tile_exists(x + 1, y ) != null)
+            moves.add(new MoveSouth());
+        //Strings moves[] = new String[1];
+        return moves;
+    }
+    public ArrayList<Action> available_actions(){
+        ArrayList<Action> moves = new ArrayList<>();
+        moves = adjacentMoves();
+        moves.add(new ViewInventory());
+
+        // String moves[] = new String[1]
+        return moves;
+
+    }
+
+
+}
