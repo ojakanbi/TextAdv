@@ -12,10 +12,12 @@ public class EnemyRoom extends MapTile{
         if (enemy.is_alive()){
             the_player.hp = the_player.hp - enemy.damage;
 
-            System.out.printf("Enemy does %d damage. You have %d HP remaining.", enemy.damage, the_player.hp);
+            System.out.printf("\nEnemy does %d damage. You have %d HP remaining.", enemy.damage, the_player.hp);
 
         ///else pirate is dead
         }
+
+
     }
 
 }

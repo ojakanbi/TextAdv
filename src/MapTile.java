@@ -15,7 +15,7 @@ public class MapTile {
         this.y = y;
     }
 
-    public String intro_text() {throw new UnsupportedOperationException(); }
+    public String intro_text(String name) {throw new UnsupportedOperationException(); }
 
 
     public ArrayList<Action> adjacentMoves() {
@@ -40,6 +40,34 @@ public class MapTile {
         return moves;
 
     }
+    public void modify_player(Pirate player){
+        System.out.println("You hit the modify player for mapTile");
+//        throw new UnsupportedOperationException();
+    }
 
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + x;
+        result = prime * result + y;
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        MapTile other = (MapTile) obj;
+        if (x != other.x)
+            return false;
+        if (y != other.y)
+            return false;
+        return true;
+    }
 
 }

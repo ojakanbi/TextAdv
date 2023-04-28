@@ -9,6 +9,7 @@ import java.util.List;
 
 public class World {
     public static String[][] _world; //two dimensional string array
+//    public static String[] hisotry;
 
     static Point Starting_Position = new Point(0,0);
 
@@ -64,7 +65,7 @@ public class World {
                     mt = checkRoomExist(mt);
                     break;
                 case "FindPistolRoom":
-                    mt = new FindPistolRoom(x, y);
+                    mt = new FindPistolRoom(x, y, new Pistol());
                     mt = checkRoomExist(mt);
                     break;
                 case "GiantSquidRoom":
@@ -90,6 +91,8 @@ public class World {
     }
 
     private static MapTile checkRoomExist(MapTile mt) {
+
+
         // Read the map.txt file to verify if the given MapTile object exists
         try {
             BufferedReader f = new BufferedReader(new FileReader("/Users/ojakanbi/Desktop/TextAdv/src/map.txt"));
@@ -108,6 +111,15 @@ public class World {
         // The MapTile object does not exist in the map.txt file
         return null;
     }
+
+//    private static MapTile checkRoomExists(MapTile mt) {
+//        if (history.indexOf(mt) != -1) {
+//            mt = history.get(history.indexOf(mt));
+//        } else {
+//            history.add(mt);
+//        }
+//        return mt;
+//    }
 
 
 }

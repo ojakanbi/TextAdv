@@ -1,5 +1,9 @@
 
 s
-java:S1104"VMake pickedItem a static final constant or non-public and provide accessors if needed.(í“®Ÿ8ÊÂÈ˜ö0
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇëÏ8¦“åö0
-]	java:S125"<This block of commented-out lines of code should be removed.(‡°Ä»şÿÿÿÿ8ÎÂÈ˜ö0
+java:S1104"VMake pickedItem a static final constant or non-public and provide accessors if needed.(í“®Ÿ8€×ü¸÷0
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇëÏ8×ü¸÷0
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ¹‰›şÿÿÿÿ8×ü¸÷0
+I
+java:S1125"'Remove the unnecessary boolean literal.(ôÚçÿÿÿÿÿ8‘×ü¸÷0
+>
+java:S1116"Remove this empty statement.(ôÚçÿÿÿÿÿ8‘×ü¸÷0

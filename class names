@@ -30,3 +30,7 @@ Flee -> Abandon Ship
 
 Notes ->> I need to center the starting point so that it has 4 ways to go
 I need to implement the modify_player method and see what and how it works
+
+
+
+---> e n n n e n

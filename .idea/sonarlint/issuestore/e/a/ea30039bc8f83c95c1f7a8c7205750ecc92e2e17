@@ -1,0 +1,58 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(À¨´À8Äğ›™ö0
+u
+java:S2293r"YReplace the type specification in this constructor call with the diamond operator ("<>").(’ú˜n8Åğ›™ö0
+s	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÆîĞùÿÿÿÿ8Åğ›™ö0
+n	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«úÕë8¼¤™ö0
+s	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¾¬İøÿÿÿÿ8½¤™ö0
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÃ²œ8Åğ›™ö0
+m	java:S117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©à—$8Åğ›™ö0
+i
+java:S2095n"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(úš¯8Øğ›™ö0
+q	java:S116"URename this field "location_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ò¶8Øğ›™ö0
+q	java:S116"URename this field "location_y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ò¶8Ùğ›™ö0
+v
+java:S1210­"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ê÷Í]8Ùğ›™ö0
+E
+java:S1659"(Declare "location_y" on a separate line.(¸ò¶8Ùğ›™ö0
+K
+java:S1659")Declare "prevLocatnY" on a separate line.(Ğµÿşÿÿÿÿ8Ùğ›™ö0
+j	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù»åŠ8âğ›™ö0
+j	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¦’8äğ›™ö0
+?
+java:S1659+""Declare "geld" on a separate line.(Â€Ú¸8æğ›™ö0
+_
+java:S6201-"BReplace this instanceof check and cast with 'instanceof Gold gold'(—İ‡ò8ó·æœö0
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(•ÌÚ¶ıÿÿÿÿ8åğ›™ö0
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(ÄÑê‡şÿÿÿÿ8æğ›™ö0
+U
+java:S1854M"8Remove this useless assignment to local variable "gold".(ƒµØ°8æğ›™ö0
+?
+java:S1659@""Declare "geld" on a separate line.(Â€Ú¸8·´»÷0
+_
+java:S6201B"BReplace this instanceof check and cast with 'instanceof Gold gold'(—İ‡ò8ô·æœö0
+J	java:S108C")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8çğ›™ö0
+F
+java:S1481M")Remove this unused "gold" local variable.(ƒµØ°8¨¦Œ»÷0
+^	java:S899^"BDo something with the "boolean" value returned by "createNewFile".(İ¼¼¿8éğ›™ö0
+L
+java:S1197w"*Move the array designators [] to the type.(ÀÑÃ¹ıÿÿÿÿ8êğ›™ö0
+V	java:S106„"9Replace this use of System.out or System.err by a logger.( ğ‘Ä8ëğ›™ö0
+U	java:S106“"9Replace this use of System.out or System.err by a logger.(ÆìÏ38ëğ›™ö0
+p	java:S100•"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å™Ñèıÿÿÿÿ8ëğ›™ö0
+k	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ÁÃ¯8ëğ›™ö0
+k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌúÕ®8ëğ›™ö0
+p	java:S100¡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ™»öıÿÿÿÿ8ëğ›™ö0
+<
+java:S2119¨"Save and re-use this "Random".(’Æ§ò8ìğ›™ö0
+k	java:S100®"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ¶²8ìğ›™ö0
+a
+java:S6201Ò"CReplace this instanceof check and cast with 'instanceof Weapon wpn'(Ç¸Øå8ı·æœö0
+[	java:S106Ú"9Replace this use of System.out or System.err by a logger.(íÄÓ¬ûÿÿÿÿ8í¤™ö0
+[	java:S106İ"9Replace this use of System.out or System.err by a logger.(©İ¸½ùÿÿÿÿ8í¤™ö0
+U	java:S106ß"9Replace this use of System.out or System.err by a logger.(çâ\8í¤™ö0
+k	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ­è8íğ›™ö0
+k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÃ²œ8íğ›™ö0
+p	java:S100”"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú­—şúÿÿÿÿ8íğ›™ö0
+j	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©à—$8íğ›™ö0

@@ -15,12 +15,8 @@ public class Weapon extends Treasure {
         this.damage = damage;
     }
 
-    @Override
+
     public String toString() {
-        return "Cutlass{" +
-                "name='" + name + '\'' +
-                ", description='" + description + '\'' +
-                ", value=" + value +
-                '}';
+        return String.format("{0}\n=====\n{1}\nValue: {2}\nDamage: {3}", this.name, this.description, this.description, this.damage);
     }
 }

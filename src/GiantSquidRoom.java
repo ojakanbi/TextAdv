@@ -7,11 +7,32 @@ public class GiantSquidRoom extends EnemyRoom{
         this.enemy = enemy;
     }
 
-    public String intro_text(){
-        if (enemy.is_alive()){
-            return "A giant squid , where the kraken lurks in the depths. Beware its deadly embrace and approaches you!";
-        }else{
-            return "The Squid of a dead rots on the ground";
+    public String intro_text(String name) {
+        String squid = "************************************\n" +
+                "              _   __\n" +
+                "             / `\\/  \\~-_\n" +
+                "            {    ;    \\,\\\n" +
+                "             \\_  /_  _/\\|\n" +
+                "              \\_\\  \\/_/||\n" +
+                "              \\_\\O/_/ \\||\n" +
+                "          _____\\_\\O/__\\_\\o\\____\n" +
+                "         /`  <_\\/_>  `\\\\ \\----.\n" +
+                "        /  _.--._    \\ |  (|\n" +
+                "    _   `>_...._<'   /_/  /\\|_\n" +
+                " /\\`\\_/`  o`    o  `\\/_/ /_/ /`\\\n" +
+                "|`\\\\;,',-\"\"\"-,_..-'|`._/\\/``-._ \\\n" +
+                " \\\\ \\``--'--'..__,/' \\    `'---._\\\\\n" +
+                "  `/_            _`/         ,_>\\\\\n" +
+                "     `--._`-.___,'  / ____,--'\\_\\\\\n" +
+                "         ||`'---'`|| /_,,----'`\"\"\"`\n" +
+                "         \\_\\      /_/\n" +
+                "************************************\n";
+
+        if (enemy.is_alive()) {
+            return squid + "\nAhoy " + name + "! A giant squid approaches you! Beware its deadly embrace and fight for your life! ";
+        } else {
+            return squid + "\nAhoy " + name + "! The squid of a dead rot lies on the ground.";
         }
     }
+
 }

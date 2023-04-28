@@ -4,11 +4,22 @@ public class TreasureRoom extends LootRoom{
         super(x, y, gold);
     }
 
-    public String intro_text(){
-        if(pickedItem == false)
-            return String.format("You notice a gold coin with 15 stamped on the front");
-        else
+    public String intro_text(String name) {
+        if (pickedItem == false) {
+            return "\n" +
+                    "     /\\        \n" +
+                    "    //\\\\      \n" +
+                    "   //  \\\\     \n" +
+                    "  //____\\\\    \n" +
+                    " |        |   \n" +
+                    " | $ 15   |   \n" +
+                    " |________|   \n" +
+                    "\n" +
+                    "You notice a gold coin with 15 stamped on the front. Perhaps it's a clue to the location of a hidden treasure.\n";
+        } else {
             return "";
-
+        }
     }
+
+
 }

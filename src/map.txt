@@ -1,3 +1,5 @@
  	 GiantSquidRoom 	 	LeaveGrottoRoom
  	 TreasureRoom	FindPistolRoom	EmptyGrottoPath
- 	 BuccaneersRoom	StartingRoom	EmptyCavePath
+ 	 BuccaneersRoom	GiantSquidRoom	TreasureRoom
+ 	 BuccaneersRoom	GiantSquidRoom	TreasureRoom
+BuccaneersRoom	StartingRoom	GiantSquidRoom	TreasureRoom	FindPistolRoom

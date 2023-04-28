@@ -1,0 +1,27 @@
+
+r	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òß“ºşÿÿÿÿ8®ƒº÷0
+m	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ§¡µ8¯ƒº÷0
+O
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8µƒº÷0
+o
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(œû¿Ø8”ƒº÷0
+W	java:S125"<This block of commented-out lines of code should be removed.(ï­ãR8•ƒº÷0
+W	java:S125"<This block of commented-out lines of code should be removed.(¨‰o8–ƒº÷0
+>
+java:S1116"Remove this empty statement.(Óîù¢ıÿÿÿÿ8—ƒº÷0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(÷™Âú8—ƒº÷0
+X	java:S125!"<This block of commented-out lines of code should be removed.(‹¡í¤8—ƒº÷0
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ÉŞŞáùÿÿÿÿ8˜ƒº÷0
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(ñ®™ÿ8˜ƒº÷0
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(’Ï‰úùÿÿÿÿ8˜ƒº÷0
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(’¹²è8™ƒº÷0
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(ú¡°šüÿÿÿÿ8ğ×†º÷0
+J
+java:S1128"(Remove this unused import 'javax.swing'.(Ìí¿Üüÿÿÿÿ8ê’…º÷0
+Z
+java:S1128"=Remove this unused import 'java.nio.BufferOverflowException'.(÷¿¡É8ê’…º÷0
+d
+java:S1128"BRemove this unused import 'java.nio.channels.ReadableByteChannel'.(î–ä°ûÿÿÿÿ8ê’…º÷0
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ê’…º÷0

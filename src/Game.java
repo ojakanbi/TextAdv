@@ -8,54 +8,46 @@ import java.util.Scanner;
 
 public class Game {
     public static void main(String[] args) throws IOException {
-        //        System.out.println("Hello world!");
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter Pirate Name: ");
+        String pirateName = input.nextLine();
 
         World world = new World();
-
         world.load_tiles();
 
-        //System.println("Enter Pirate Name: ");
-        //Scanner input = new Scanner(System.in);
+        Pirate pirate = new Pirate(pirateName);
+        pirate.setName(pirateName);
 
-        String pirateName = "Team Deadly Games";
+        MapTile room = World.tile_exists(pirate.location_x, pirate.location_y);
 
-        Pirate pirate  = new Pirate(pirateName);
-
-        //These lines load the starting room and display the text
-
-        MapTile room  = World.tile_exists(pirate.location_x, pirate.location_y);
-    if(room != null);
-        {
-            System.out.print(room.intro_text());
-            while ((pirate.is_alive()) && (!pirate.victory)){
+        if (room != null) {
+            System.out.print(room.intro_text(pirate.getName()));
+            while (pirate.is_alive() && !pirate.victory) {
                 room = World.tile_exists(pirate.location_x, pirate.location_y);
-                // System.out.print(room.intro_text());
-//                room.modify_player(pirate);
-//			  // Check again since the room could have changed the player's state
-
-                if ((pirate.is_alive()) &&  (!pirate.victory)){
-                    System.out.print("\nChoose an action: \n");
+                room.modify_player(pirate);
+                if (pirate.is_alive() && !pirate.victory) {
+                    System.out.println("\nChoose an action: ");
                     ArrayList<Action> available_actions = room.available_actions();
-                    for (Action action :available_actions){
-                        System.out.print(action.getHotkey() + ":" + action.getName() + "\n");
+                    for (Action action : available_actions) {
+                        System.out.println(action.getHotkey() + ": " + action.getName());
                     }
-                    BufferedReader in = new BufferedReader( new InputStreamReader(System.in));
-                    System.out.println("Action: ");
+                    BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+                    System.out.print("Action: ");
                     char action_input = in.readLine().charAt(0);
-                    for (Action action:available_actions){
-                        if (action_input == action.getHotkey()){
+                    for (Action action : available_actions) {
+                        if (action_input == action.getHotkey()) {
                             pirate.do_action(action, action.getKwargs(), room);
                             break;
+                        } else if (action_input == 'L' || action_input == 'l') {
+                            System.out.println("You have left the grotto.");
                         }
                     }
-
-                }
-                else{
-                    System.out.println("\n \t GAME OVER!!!!");
+                } else {
+                    System.out.println("\n\tGAME OVER!!!! " + pirateName);
                     pirate.writeToFile();
                 }
             }
         }
-
     }
 }

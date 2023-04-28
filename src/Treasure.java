@@ -33,13 +33,9 @@ public class Treasure {
     public void setValue(int value) {
         this.value = value;
     }
-    @Override
+
     public String toString() {
-        return "Treasure{" +
-                "name='" + name + '\'' +
-                ", description='" + description + '\'' +
-                ", value=" + value +
-                '}';
+        return String.format("%s \n=====\n %s \nValue: %d \n", this.name, this.description, this.value);
     }
 
 

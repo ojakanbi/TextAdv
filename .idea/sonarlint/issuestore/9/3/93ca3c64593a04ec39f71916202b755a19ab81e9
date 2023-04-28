@@ -1,7 +1,8 @@
 
-W
-java:S1161	":Add the "@Override" annotation above this method signature( —Ùª8É¿»ö0
+V
+java:S1161	":Add the "@Override" annotation above this method signature(ŠÈh8É¿»ö0
 O
 java:S6126
 "2Replace this String concatenation with Text block.(µÖÈ¿8¡Àù—ö0
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ¹‰›şÿÿÿÿ8Ê¿»ö0
+\
+java:S1161":Add the "@Override" annotation above this method signature(õ¹‰›şÿÿÿÿ8Ö×¹÷0

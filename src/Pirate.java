@@ -24,7 +24,7 @@ public class Pirate implements Comparable<Pirate> {
     public Pirate(String name) {
         super();
         this.name = name;
-        inventory.add(new Cutlass());
+//        inventory.add(new Cutlass());
         inventory.add(new Pistol());
         inventory.add(new Gold(20));
         this.hp = 140; // Health Points
@@ -144,7 +144,7 @@ public class Pirate implements Comparable<Pirate> {
         prevLocatnY = location_y;
         location_x += dx;
         location_y += dy;
-        System.out.print(World.tile_exists(location_x, location_y).intro_text());
+        System.out.print(World.tile_exists(location_x, location_y).intro_text(name));
     }
     public void move_north(){
         move(-1,0);
