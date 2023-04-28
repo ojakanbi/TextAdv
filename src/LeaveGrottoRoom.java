@@ -21,7 +21,7 @@ public class LeaveGrottoRoom extends MapTile {
 
     @Override
     public String intro_text(String name) {
-        String congrats = "    222 __ __ __ __ __ __         __ __ __ __ __ __ __\n" +
+        String congrats = "    ___ __ __ __ __ __ __         __ __ __ __ __ __ __\n" +
                 "   /__/__/__/__/__/__/|      |\\__\\__\\__\\__\\__\\__\\__\\\n" +
                 "  |  Congratulations! |      | |             | |     \n" +
                 "   \\__\\__\\__\\__\\__\\__\\|      |/__/__/__/__/__/__/__/\n";
