@@ -10,7 +10,7 @@ public class LeaveGrottoRoom extends MapTile {
 //        // The player has reached the end of the cave
 //        player.victory = true;
 //    }
-
+//
     @Override
     public ArrayList<Action> available_actions() {
         // The only available action in this room is to leave the cave
