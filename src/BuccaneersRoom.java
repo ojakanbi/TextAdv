@@ -15,4 +15,14 @@ public class BuccaneersRoom extends EnemyRoom{
             return "A dead corpse of the Buccaneer lies on the ground and it's you, " + name + "!!" ;
         }
     }
+
+    public void modify_player(Pirate the_pirate) {
+        if (enemy.is_alive()) {
+            the_pirate.hp = the_pirate.hp - enemy.damage;
+            System.out.printf("Enemy does %d damage. You have %d HP remaining.", enemy.damage, the_pirate.hp);
+            while (enemy.hp > 0) {
+                the_pirate.attackEnemy(enemy);
+            }
+        }
+    }
 }

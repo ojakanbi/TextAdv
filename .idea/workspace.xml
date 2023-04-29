@@ -5,38 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8cb70d0-d4af-4816-a50e-fdb8a76c2f2a" name="Changes" comment="Pirate theme Text adventure (Not finished )">
-      <change afterPath="$PROJECT_DIR$/src/Buccaneer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuccaneersRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09fdc8d2a9f0d933485d7020276ed78c07df4842" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09fdc8d2a9f0d933485d7020276ed78c07df4842" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1aaa27e8c5986ef98b5f9ab3a104b46ea8304aab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1aaa27e8c5986ef98b5f9ab3a104b46ea8304aab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37b8fa0b631d4b520326cd794e35356ee5fa848e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37b8fa0b631d4b520326cd794e35356ee5fa848e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48745fcf77b3081f7aaf96451b42ade112b551de" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48745fcf77b3081f7aaf96451b42ade112b551de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93ca3c64593a04ec39f71916202b755a19ab81e9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93ca3c64593a04ec39f71916202b755a19ab81e9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a54f6b8ba249cfa30e2d5431a752d88c613f4d09" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a54f6b8ba249cfa30e2d5431a752d88c613f4d09" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0b1ad144414586d26052d4f295a8b147fa2874d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0b1ad144414586d26052d4f295a8b147fa2874d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class names" beforeDir="false" afterPath="$PROJECT_DIR$/class names" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cutlass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cutlass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmptyGrottoPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmptyGrottoPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnemyRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnemyRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindPistolRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindPistolRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GiantSquid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GiantSquid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuccaneersRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuccaneersRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GiantSquidRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GiantSquidRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeaveGrottoRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeaveGrottoRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LootRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LootRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapTile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pirate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pirate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pistol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pistol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartingRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Treasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Treasure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreasureRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreasureRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/map.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

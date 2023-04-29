@@ -301,4 +301,27 @@ public class Pirate implements Comparable<Pirate> {
     public int compareTo(Pirate o) {
         return 0;
     }
+
+    public void attackEnemy(Pirate pirate)
+    {
+        Weapon best_weapon = new Weapon("None", "None", 0, 0);
+        int max_dmg = 0;
+        for (Treasure i:inventory){
+            if (i instanceof Weapon){
+                Weapon wpn = (Weapon)i;
+                if (wpn.getDamage() > max_dmg){
+                    max_dmg = wpn.getDamage();
+                    best_weapon = wpn;
+                }
+            }
+        } //End Code block for loop
+        System.out.printf("You use %s against %s!",best_weapon.name, pirate.name);
+        pirate.hp -= best_weapon.getDamage();
+        if (! pirate.is_alive()){
+            System.out.printf("\nYou killed %s!", pirate.name);
+        }else{
+            System.out.printf("\n %s HP is %d.", pirate.name,  pirate.hp);
+        }
+    }
 }
+

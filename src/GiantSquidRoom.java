@@ -35,4 +35,16 @@ public class GiantSquidRoom extends EnemyRoom{
         }
     }
 
+    public void modify_player(Pirate the_player){
+        if (enemy.is_alive()){
+            the_player.hp = the_player.hp - enemy.damage;
+
+            System.out.printf("\nEnemy does %d damage. You have %d HP remaining.", enemy.damage, the_player.hp);
+
+            ///else pirate is dead
+        }
+
+
+    }
+
 }
